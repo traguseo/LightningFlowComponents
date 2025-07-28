@@ -3,6 +3,7 @@
 // 04/04/23    Clifford Beul    Added disabled categories and optional overwrite of formats
 // 01/08/24    Declan Toohey    Modified character count calculation to not include HTML characters in character count
 // 14/10/24    Jeroen Burgers   Added reactivity
+// 28/07/25    Astisme   Added Read Only
 
 import { LightningElement, api, track } from 'lwc';
 
@@ -26,6 +27,7 @@ export default class inputRichTextFSC_LWC extends LightningElement {
     @api disallowedSymbolsList;
     @api autoReplaceMap;
     @api warnOnly = false;
+    @api readOnly = false;
     @api label;
     @api characterLimit;
     @api required = false;

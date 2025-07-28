@@ -19,6 +19,7 @@
             <property label="Character Limit" name="characterLimit" type="Integer" role="inputOnly" description="If set, then the character count will be limited to this quantity."/>
             <property label="Required?" name="required" type="Boolean" role="inputOnly" default="false" description="Set to True if you want to require an entry for this input."/>
             <property label="Exclude HTML in character count?" name="excludeHTMLCharacterCount" type="Boolean" role="inputOnly" default="false" description="Set to True if you want to exclude HTML characters in the character count."/>
+            <property name="readOnly" type="Boolean" label="Read Only Mode" description="Displays the text in read-only format"/>
         </targetConfig>
     </targetConfigs>
 </LightningComponentBundle>
